@@ -179,7 +179,7 @@ endif
 ifdef FFMPEGSERVER
   $(DBD_NAME)_DBD += ffmpegServer.dbd
   PROD_LIBS       += ffmpegServer
-  PROD_LIBS       += avdevice avformat avcodec avutil swscale
+  PROD_LIBS       += avdevice avformat avcodec swresample swscale avutil
 endif
 
 ifdef ADPLUGINEDGE
